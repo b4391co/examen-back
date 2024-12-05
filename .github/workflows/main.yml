@@ -6,11 +6,11 @@ jobs:
   nombres:
     runs-on: ubuntu-latest
     steps:
-      - name: Nombre de usuario
+      - name: 'Nombre de usuario'
         run: echo "Usuario: ${{ GITHUB.actor }}"
-      - name: nombre del repo
+      - name: 'nombre del repo'
         run: echo "Repo: ${{ GITHUB.repository }}"
-      - name: nombre de la rama
+      - name: 'nombre de la rama'
         run: echo "Rama: ${{ GITHUB.ref }}"
 
   docker-hub:
