@@ -10,7 +10,7 @@ jobs:
         run: echo ${{ github.actor }}
 
       - name: repository
-        run: echo "the ${{ github.repository }}"
+        run: echo "${{ github.repository }}"
 
       - name: 'rama'
         run: echo ${{ github.ref }}
